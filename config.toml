@@ -1,4 +1,5 @@
-baseurl = "https://blood.gratis/"
+baseurl = "https://evornov.github.io/blood.gratis/"
+#baseurl = "https://blood.gratis/"
 title = "like blood... but free??"
 theme = "pulp"
 publishDir = "docs"
