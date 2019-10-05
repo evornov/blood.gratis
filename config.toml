@@ -1,7 +1,7 @@
 baseurl = "https://evornov.github.io/blood.gratis/"
 #baseurl = "https://blood.gratis/"
 title = "like blood... but free??"
-theme = "pulp"
+theme = "vncnt-hugo"
 publishDir = "docs"
 canonifyurls = true
 hasCJKLanguage = true
@@ -9,49 +9,23 @@ hasCJKLanguage = true
 # pygmentsUseClasses = true
 # googleAnalytics = "{your tracking code}"
 
-[taxonomies]
-  series = "series"
+
+[blackfriday]
+  extensions = ["hardLineBreak"]
+
+[permalinks]
+  fixed = ":title/"
+  posts = "posts/:slug/"
 
 [params]
-    author = "blood.gratis"
-    avatar = "avatar.png"
-    favicon = "favicon.ico"
-    description = """
-        For when you just can't bring yourself to pay for blood.  
-    """
-    publicationYear = "2019"
-    # listPageDateFormat = "January, 2006" # See https://gohugo.io/functions/format/
-    # singlePageDateFormat = "January 2, 2006"
-    # custom_css = ["/css/custom.css"]
-    # custom_js = ["/js/custom.js"]
+  author = "blood.gratis"
+  email = "hey@blood.gratis"
+  description = "??"
+  bio = "It's blood, gratis. \nFor when you just can't bring yourself to pay for blood.  "
+  avatar = "img/avatar.jpeg"
+  favicon = "img/favicon.ico"
+  error404 = "There is no such page."
 
-[outputs]
-    section = ["JSON", "HTML"]
-
-#[[menu.main]]
-#    identifier = "posts"
-#    # name = "Blog" #If display text link, cancel comment out
-#    pre = "<i class='fa fa-book-open fa-lg'></i>" #Choose your favorite font from Font Awesome
-#    url = "/posts/"
-#    weight = 10
-
-[[menu.main]]
-    identifier = "linkedin"
-    # name = "LinkedIn"
-    pre = "<i class='fab fa-linkedin fa-lg'></i>"
-    url = "https://www.linkedin.com/in/eliana-vornov/"
-    weight = 20
-
-[[menu.main]]
-    identifier = "github"
-    # name = "GitHub"
-    pre = "<i class='fab fa-github fa-lg'></i>"
-    url = "https://github.com/evornov"
-    weight = 30
-
-[[menu.main]]
-    identifier = "email"
-    # name = "Email"
-    pre = "<i class='fa fa-envelope fa-lg'></i>"
-    url = "mailto:hey@blood.gratis"
-    weight = 40
+  [params.contact]
+    github = "https://github.com/evornov"
+    linkedin = "https://linkedin.com/in/eliana-vornov/"
