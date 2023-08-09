@@ -1,7 +1,7 @@
 baseurl = "https://evornov.github.io/blood.gratis/"
 #baseurl = "https://blood.gratis/"
 title = "like blood... but free??"
-theme = "pulp"
+theme = "PaperMod"
 publishDir = "public"
 # canonifyurls = true
 hasCJKLanguage = true
@@ -26,7 +26,14 @@ _merge = "none"
   avatar = "img/avatar.jpeg"
   favicon = "img/favicon.ico"
   error404 = "There is no such page."
+  
+  mainSections = []
+
+[params.profileMode]
+enabled = true
 
   [params.contact]
     github = "https://github.com/evornov"
     linkedin = "https://linkedin.com/in/eliana-vornov/"
+
+

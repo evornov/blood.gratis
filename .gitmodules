@@ -4,3 +4,6 @@
 [submodule "themes/vncnt-hugo"]
 	path = themes/vncnt-hugo
 	url = https://github.com/fncnt/vncnt-hugo
+[submodule "themes/PaperMod"]
+	path = themes/PaperMod
+	url = https://github.com/adityatelange/hugo-PaperMod.git

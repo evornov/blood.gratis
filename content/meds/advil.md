@@ -6,10 +6,11 @@ draft: false
 ---
 
 ## Advil
+This one is generic ibuprofen from Costco.
 
 ### Medicine details
-Generic ibuprofen from Costco.
+**Directions**: 
+* Take 1 tablet every 4 to 6 hours while symptoms persist.
+* If pain or fever does not respond to 1 tablet, 2 tablets may be used
 
-
-### Expiration date
-3/2015??
+**Expiration date**: 3/2015??
