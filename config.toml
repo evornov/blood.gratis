@@ -1,7 +1,7 @@
 baseurl = "https://evornov.github.io/blood.gratis/"
 #baseurl = "https://blood.gratis/"
 title = "like blood... but free??"
-theme = "vncnt-hugo"
+theme = "pulp"
 publishDir = "public"
 # canonifyurls = true
 hasCJKLanguage = true
@@ -21,8 +21,8 @@ _merge = "none"
 [params]
   author = "blood.gratis"
   email = "hey@blood.gratis"
-  description = "??"
-  bio = "It's blood, gratis. \nFor when you just can't bring yourself to pay for blood.  "
+  description = "It's blood, gratis. \nFor when you just can't bring yourself to pay for blood."
+  #bio = "It's blood, gratis. \nFor when you just can't bring yourself to pay for blood.  "
   avatar = "img/avatar.jpeg"
   favicon = "img/favicon.ico"
   error404 = "There is no such page."
