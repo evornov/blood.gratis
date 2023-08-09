@@ -3,7 +3,7 @@ baseurl = "https://evornov.github.io/blood.gratis/"
 title = "like blood... but free??"
 theme = "vncnt-hugo"
 publishDir = "public"
-canonifyurls = true
+# canonifyurls = true
 hasCJKLanguage = true
 _merge = "none"
 # pygmentsCodefences = true
@@ -16,7 +16,7 @@ _merge = "none"
 
 [permalinks]
   fixed = ":title/"
-  posts = "posts/:slug/"
+  meds = "meds/:slug/"
 
 [params]
   author = "blood.gratis"
