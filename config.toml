@@ -5,6 +5,7 @@ theme = "vncnt-hugo"
 publishDir = "public"
 canonifyurls = true
 hasCJKLanguage = true
+_merge = "none"
 # pygmentsCodefences = true
 # pygmentsUseClasses = true
 # googleAnalytics = "{your tracking code}"
